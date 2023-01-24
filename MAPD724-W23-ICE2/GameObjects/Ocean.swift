@@ -25,7 +25,7 @@ class Ocean : GameObject, GameProtocol {
     
     // LifeCycle Functions
     func Start() {
-        zPosition = 0
+        zPosition = Layer.ocean.rawValue
         verticalSpeed = 5.0
     }
     

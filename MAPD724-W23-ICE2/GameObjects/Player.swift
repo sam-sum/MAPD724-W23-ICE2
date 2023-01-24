@@ -21,7 +21,7 @@ class Player : GameObject, GameProtocol
     
     // LifeCycle Functions
     func Start() {
-        zPosition = 2
+        zPosition = Layer.plane.rawValue
         Reset()
     }
     
